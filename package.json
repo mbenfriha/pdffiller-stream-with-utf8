@@ -1,6 +1,6 @@
 {
 
-  "name": "@mbenfriha/pdffiller-stream",
+  "name": "@mbenfriha/pdffiller-stream-with-utf8",
   "repository": {
     "type": "git",
     "url": "https://github.com/mbenfriha/pdffiller-stream-with-utf8.git"
