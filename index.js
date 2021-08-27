@@ -2,6 +2,7 @@ var spawn = require('child_process').spawn,
     fdf = require("./fdf.js"),
     _ = require('lodash'),
     fs = require('fs');
+    iconv = require('iconv-lite');
 
 var pdffiller = {
 
