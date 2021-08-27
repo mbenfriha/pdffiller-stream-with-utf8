@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "lodash": "^4.17.4",
-    "iconv-lite": "^0.4.18",
+    "iconv-lite": "^0.4.18"
   },
   "author": {
     "name": "original: John Taylor and David Baldwynn; stream fork: Jason Phillips, stream fork, utf-8 fork: Mohamed Benfriha"
