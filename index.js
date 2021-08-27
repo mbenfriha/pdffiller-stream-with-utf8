@@ -114,7 +114,11 @@ var pdffiller = {
         var promised = new Promise(function (resolve, reject) {
 
             //Generate the data from the field values.
+            var randomSequence = Math.random().toString(36).substring(7);
+            var currentTime = new Date().getTime();
             var FDFinput = fdf.createFdf(fieldValues);
+            var FDFinputString = iconv.decode(FDFinput, "utf-8");
+            FDFinput = iconv.encode(FDFinputString, "ISO-8859-1");
 
             var args = [sourceFile, "fill_form", '-', "output", '-'];
             if (shouldFlatten) {
