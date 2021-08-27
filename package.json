@@ -1,9 +1,9 @@
 {
 
-  "name": "pdffiller-stream",
+  "name": "@mbenfriha/pdffiller-stream",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonphillips/pdffiller-stream.git"
+    "url": "https://github.com/mbenfriha/pdffiller-stream-with-utf8.git"
   },
   "version": "0.1.0",
   "private": false,
@@ -24,7 +24,7 @@
     "iconv-lite": "^0.4.18",
   },
   "author": {
-    "name": "original: John Taylor and David Baldwynn; stream fork: Jason Phillips"
+    "name": "original: John Taylor and David Baldwynn; stream fork: Jason Phillips, stream fork, utf-8 fork: Mohamed Benfriha"
   },
   "license": "MIT",
   "readmeFilename": "README.md",
